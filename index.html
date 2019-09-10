@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!--Custom CSS Styles-->
+        <link rel="stylesheet" href="css/home-page-styles.css">
+        <link rel="stylesheet" href="css/common.css">
+
+        <!--Bootstrap and AOS files-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+        <title>Samuel May</title>
+    </head>
+    <body>
+        <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark mb-4">
+            <div class="container bg-dark">
+                <a class="navbar-brand d-none d-sm-inline-block" href="index.html">sm.uk</a> 
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="projects.html" class="nav-item nav-link">Projects</a>
+                    <a href="work.html" class="nav-item nav-link">Work</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <main class="container bg-white footer-padding" id="content-container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div id="aboutme" class="card" data-aos="fade-left">
+                        <div class="card-header card-title">Samuel May</div>
+                        <div class="card-body">
+                            <img class="card-image" src="res/hi-lg.png" alt="">
+                        </div>
+                        <div class="card-footer">
+                            <p>Studying Software Engineering BSc</p>
+                            <p>Based in Portsmouth, UK</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 card-container">
+                    <div class="row m-0">
+                        <div class="col-sm-3">
+                            <img class="avatar-img" src="res/pw-lg.jpg" alt="">
+                        </div>
+                        <div class="col-sm-8 card-body">
+                            <h2 class="card-title">Projects</h2>
+                            <p>A collection of projects I have worked on available to view on Github</p>
+                            <a class="btn btn-primary btn-block" href="projects.html">Click to view Projects ></a>
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-3">
+                            <img class="avatar-img" src="res/wk-lg.png" alt="">
+                        </div>
+                        <div class="col-sm-8 card-body">
+                            <h2 class="card-title">Work Experience</h2>
+                            <p>Previous Work placements and employment history, along with all undertaken volunteering</p>
+                            <a class="btn btn-primary btn-block" href="work.html">Click to view Work and Volunteering ></a>
+                        </div>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-3">
+                            <img class="avatar-img" src="res/ct-lg.jpg" alt="">
+                        </div>
+                        <div class="col-sm-8 card-body">
+                            <h2 class="card-title">Contact</h2>
+                            <p>Ways to get in contact and send me a message</p>
+                            <a class="btn btn-primary btn-block" href="contact.html">Click for contact Details ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="bg-dark">
+            <div class="row">
+                <div class="col-sm-10 button-container">
+                    <a class="cbut btn-link bg-light" href="index.html">Home</a>
+                    <a class="cbut btn-link bg-light" href="#navbar">Top of Page</a>
+                    <a class="cbut btn-link bg-light" href="https://github.com/SamMayWork">Github</a>
+                    <a class="cbut btn-link bg-light" href="https://validator.w3.org//check?uri=referer">Validate this page</a>
+                </div>
+                <div class="col-sm-2">
+                    <p>Copyright © Samuel May 2019</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <!--Needed for AOS-->
+    <script>
+        AOS.init();
+    </script>
+</html>

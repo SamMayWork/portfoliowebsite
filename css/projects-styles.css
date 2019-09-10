@@ -1,0 +1,67 @@
+.prj-card img {
+  width: 100%;
+  height: 40vh;
+  border-radius: 25px 25px 0 0;
+}
+.prj-card .content-divide {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1em;
+}
+.prj-card #code-link {
+  position: relative;
+  padding: 1px 15px 1px 15px;
+  border-radius: 25px;
+  top: 13px;
+}
+.prj-card #info-link {
+  position: relative;
+  padding: 1px 15px 1px 15px;
+  border-radius: 25px;
+  top: 13px;
+  left: 5px;
+}
+.prj-card .out-links * {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+.prj-card .out-links *:last-child {
+  margin-bottom: 0px;
+}
+
+.outbound-container {
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.outbound-container * {
+  margin-bottom: 0.2em;
+}
+
+.outbound-link {
+  padding: 1em;
+  font-size: 1em;
+  border-radius: 25px;
+}
+.outbound-link * {
+  display: inline;
+  color: #ffffff;
+}
+.outbound-link img {
+  position: relative;
+  float: right;
+  width: 40px;
+  height: auto;
+  border-radius: 0px;
+}
+
+/* Spacing for the page */
+main {
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+/*# sourceMappingURL=projects-styles.css.map */

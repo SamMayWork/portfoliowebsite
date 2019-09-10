@@ -1,0 +1,35 @@
+.footer-padding {
+    min-height :86vh;
+}
+
+footer {
+    margin-top : auto;
+    padding-top : 2vh;
+    padding-bottom : 2vh;
+    width : 100%;
+
+    color : #ffffff;
+
+    .row {
+        margin-top : 2em;
+        margin-right : 1em;
+        margin-left : 1em;
+    }
+
+    padding-left : 2em;
+}
+
+.cbut {
+    padding : 1em;
+    border-radius : 10px;
+    margin-right : 0.2em;
+}
+
+@media (max-width : 576px) {
+    .button-container {
+        * {
+            display : block;
+            margin-bottom : 0.2em;
+        }
+    }
+}

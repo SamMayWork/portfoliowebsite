@@ -1,0 +1,15 @@
+.outbound-link {
+  padding: 1em;
+  font-size: 2em;
+}
+.outbound-link * {
+  display: inline;
+  color: #ffffff;
+}
+.outbound-link img {
+  height: 1em;
+  width: auto;
+  margin-left: 1vw;
+}
+
+/*# sourceMappingURL=test.css.map */
